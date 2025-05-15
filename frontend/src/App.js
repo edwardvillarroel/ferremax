@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavbarFerremax from './components/navbar/navbar';
+import HeaderFerremax from './components/header/header';
+import ImgBanner from './components/carousel/imagenesCarousel';
+import FooterFerremax from './components/footer/footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app-wrapper">
+      <header>
+        <HeaderFerremax/>
+        <NavbarFerremax/>
+        <ImgBanner/>
       </header>
+      <main>
+      </main>
+      <footer>
+        <FooterFerremax/>
+      </footer>
     </div>
   );
 }
