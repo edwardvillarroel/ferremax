@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: venta-service
+  datasource:
+    url: jdbc:mysql://bd-ferramas-ventas.crwi4crvnqsy.us-east-1.rds.amazonaws.com
+    username: Ferremas_adm
+    password: C.AdmFerremas
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 2
+      idle-timeout: 300000
+      connection-timeout: 20000
+      max-lifetime: 1200000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        connection:
+          characterEncoding: utf8
+          useUnicode: true
+    show-sql: false
+
+server:
+  port: 3306
