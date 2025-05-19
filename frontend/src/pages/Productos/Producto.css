@@ -1,0 +1,263 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; 
+}
+
+.admin-container {
+  padding-top: 140px; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.admin-products-list {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  background-color: #1436a5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-input {
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.products-table th,
+.products-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.no-products {
+  text-align: center;
+  color: #888;
+}
+
+.admin-content {
+  padding-top: 160px; 
+}
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+
+.detalle-producto-ml {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0001;
+  margin: 40px auto;
+  max-width: 1100px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.detalle-imagenes {
+  flex: 0 0 200px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detalle-imagenes img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.detalle-info {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word; 
+}
+
+.comprar-btn {
+  background: #3483fa;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.comprar-btn:hover {
+  background: #2968c8;
+}
+
+.volver-btn {
+  background: #eee;
+  color: #333;
+  border: none;
+  padding: 6px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.productos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 32px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.producto-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px #0002;
+  padding: 24px 18px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.producto-card:hover {
+  box-shadow: 0 4px 24px #0003;
+  transform: translateY(-4px) scale(1.03);
+}
+
+.producto-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.producto-info {
+  text-align: center;
+}
+
+.producto-nombre {
+  font-size: 1.1rem;
+  margin: 0 0 8px 0;
+  color: #222;
+}
+
+.producto-precio {
+  font-size: 1.2rem;
+  color: #00a650;
+  font-weight: bold;
+  margin: 0;
+}
+
+.metodos-pago {
+  background: #fafbfc;
+  border-radius: 12px;
+  padding: 18px 16px;
+  margin-top: 24px;
+  box-shadow: 0 1px 6px #0001;
+  font-size: 15px;
+  width: 100%;
+  max-width: 260px;
+  min-width: 180px;
+}
+
+.metodos-titulo {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #222;
+}
+
+.metodo-bloque {
+  margin-bottom: 18px;
+}
+
+.metodo-descripcion {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.logo-webpay {
+  height: 36px;
+  margin: 8px 0;
+  object-fit: contain;
+}
+
+.logo-tarjeta {
+  height: 50px !important;
+  width: auto !important;
+  max-width: 60px !important;
+  min-width: 0 !important;
+  margin: 2px 4px 2px 0 !important;
+  object-fit: contain !important;
+  background: none !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  display: inline-block !important;
+}
+
+.tarjetas-credito,
+.tarjetas-debito {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}

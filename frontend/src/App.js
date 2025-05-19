@@ -51,7 +51,7 @@ function App() {
           <Route path="/registro" element={<RegistroUser />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/TuCarrito" element={<CarritoPage />} />
-          <Route path="/Producto" element={<ProductoPage />} />
+          <Route path="/Productos" element={<ProductoPage />} />
         </Routes>
       </main>
       <FooterFerremax />
