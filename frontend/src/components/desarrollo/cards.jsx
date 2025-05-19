@@ -1,34 +1,51 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import './desarrollo.css'
+import { Button, Card } from 'react-bootstrap';
+import './desarrollo.css';
 
-
-export default function MediaCard() {
+export function MediaCard() {
   return (
-    <Card className='cardMasVendidos'   sx={{ maxWidth: 250 }}>
-      <CardMedia
-        sx={{ height: 100 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+    <div className="media-card-wrapper">
+      <Card className="cardPromocion">
+        <div className="discount-badge">- X %</div>
+        <Card.Img variant="top" src="/imagenes/ejemplo.png" />
+        <div className="card-divider"/>
+        <Card.Body className="card-body-custom">
+          <Card.Title className="card-title">Producto</Card.Title>
+          <Card.Subtitle>Modelo 15ps 15</Card.Subtitle>
+          <Card.Text>
+            <span className="current-price">$89.000</span>
+            <span className="old-price">$110.000</span>
+          </Card.Text>
+
+        <div className="button-wrapper">
+          <Button className="button-card">Añadir al carrito</Button>
+        </div>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
+
+
+
+export function MediaCardLanzamientos() {
+  return (
+    <div className="media-card-wrapper">
+      <Card className="cardPromocion">
+        <Card.Img variant="top" src="/imagenes/ejemplo.png" />
+        <div className="card-divider"/>
+        <Card.Body className="card-body-custom">
+          <Card.Title className="card-title">Producto</Card.Title>
+          <Card.Subtitle>Modelo 15ps 15</Card.Subtitle>
+          <Card.Text>
+            <span className="current-price">$89.000</span>
+          </Card.Text>
+
+        <div className="button-wrapper">
+          <Button className="button-card">Añadir al carrito</Button>
+        </div>
+        </Card.Body>
+      </Card>
+    </div>
+  );
+}
+
