@@ -2,24 +2,21 @@ spring:
   application:
     name: producto-service
   datasource:
-    url: jdbc:mysql://localhost:3306/tienda_db
-    username: root
-    password: password
+    url: jdbc:mysql://bd-ferramas-producto.crwi4crvnqsy.us-east-1.rds.amazonaws.com
+    username: Ferremas_adm
+    password: C.AdmFerremas
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+      connection:
+          characterEncoding: utf8
+          useUnicode: true
+      show-sql: true
 
 server:
-  port: 8084
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    preferIpAddress: true
+  port: 3307

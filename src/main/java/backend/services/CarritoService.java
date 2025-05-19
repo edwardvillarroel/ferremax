@@ -7,8 +7,10 @@ import org.springframework.transaction.annotation.Transactional;
 import backend.models.Carrito;
 import backend.models.Cliente;
 import backend.models.ItemCarrito;
+import backend.models.Producto;
 import backend.repositories.CarritoRepository;
 import backend.repositories.ClienteRepository;
+import backend.repositories.ProductoRepository;
 
 @Service
 public class CarritoService {
@@ -19,9 +21,35 @@ public class CarritoService {
     @Autowired
     private ClienteRepository clienteRepository;
 
+    @Autowired
+    private ProductoRepository productoRepository;
+
     public Carrito obtenerCarritoActivo(String clienteId) {
         return carritoRepository.findByClienteIdAndActivo(clienteId, true)
             .orElse(null);
+    }
+
+        @Transactional
+    public Carrito agregarItem(Long carritoId, Integer productoId, Integer cantidad) {
+        Carrito carrito = carritoRepository.findById(carritoId)
+            .orElseThrow(() -> new RuntimeException("Carrito no encontrado"));
+            
+        Producto producto = productoRepository.findById(productoId)
+            .orElseThrow(() -> new RuntimeException("Producto no encontrado"));
+            
+        ItemCarrito item = new ItemCarrito();
+        item.setCarrito(carrito);
+        item.setProducto(producto);
+        item.setCantidad(cantidad);
+        Double precioUnitario = Double.valueOf(producto.getPrecio());
+        item.setPrecioUnitario(precioUnitario);
+        Double subtotal = precioUnitario * cantidad.doubleValue(); 
+        item.setSubtotal(subtotal);
+        
+        carrito.getItems().add(item);
+        carrito.setTotal(carrito.getTotal() + subtotal);
+        
+        return carritoRepository.save(carrito);
     }
     
     @Transactional

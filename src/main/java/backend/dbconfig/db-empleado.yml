@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: empleado-service
+  datasource:
+    url: jdbc:mysql://bd-ferramas-empleado.crwi4crvnqsy.us-east-1.rds.amazonaws.com
+    username: Ferremas_adm
+    password: C.AdmFerremas
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+      connection:
+          characterEncoding: utf8
+          useUnicode: true
+      show-sql: true
+
+server:
+  port: 3306

@@ -67,7 +67,15 @@
 .cart-item-subtotal{
 margin-right: 30px;
 }
-
+.cart-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.cart-empty {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
 .basurero {
   font-size: 30px;
   color: rgba(37, 36, 36, 0.842);
