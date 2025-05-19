@@ -122,7 +122,6 @@ function RegistroUser(){
 
                     <Form onSubmit={handleSubmit}> 
                     <Form.Group className="mb-3" controlId="formEmail">
-                    <h3 className='titulo-2'>Datos registro inicio de sesión</h3>
                     <Form.Label>Correo Electrónico</Form.Label>
                     <Form.Control 
                     type="email"

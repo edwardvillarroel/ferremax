@@ -7,8 +7,9 @@ import { MediaCard, MediaCardLanzamientos } from './components/desarrollo/cards'
 import InicioPage from './pages/InicioSesion/InicioPage';
 import RegistroUser from './pages/Registro/Registro';
 import CarritoPage from './pages/Carrito/Carrito';
-import AdminPAge from './pages/Admin/Admin';
-import { useEffect } from 'react';
+import AdminPage from './pages/Admin/Admin';
+import ProductoPage from './pages/Productos/ProductoPage';
+
 
 function Inicio() {
   return (
@@ -35,18 +36,6 @@ function Inicio() {
 }
 
 function App() {
-  useEffect(() => {
-    const admin = JSON.parse(localStorage.getItem('usuario'));
-    if (!admin) {
-      localStorage.setItem('usuario', JSON.stringify({
-        nombre: 'Administrador',
-        email: 'admin@admin.com',
-        password: 'admin123'
-      }));
-      console.log('👤 Usuario admin creado en localStorage');
-    }
-  }, []);
-
   return (
     <div className="page-container">
       <header>
@@ -60,13 +49,11 @@ function App() {
           <Route path="/Home" element={<Inicio />} />
           <Route path="/inicio" element={<InicioPage />} />
           <Route path="/registro" element={<RegistroUser />} />
-          <Route
-          path="/admin"
-          element={localStorage.getItem('token') && localStorage.getItem('rol') === 'admin' ? (<AdminPAge />):(<Navigate to="/admin"/>)}/>
+          <Route path="/admin" element={<AdminPage />} />
           <Route path="/TuCarrito" element={<CarritoPage />} />
+          <Route path="/Producto" element={<ProductoPage />} />
         </Routes>
       </main>
-
       <FooterFerremax />
     </div>
   );

@@ -4,7 +4,7 @@ import { Button, Container } from 'react-bootstrap';
 import { useNavigate } from "react-router-dom";
 
 
-function AdminPAge(){
+function AdminPage(){
     const navigate = useNavigate();
 
     const cerrarSesion = () =>{
@@ -24,4 +24,4 @@ function AdminPAge(){
     );
 }
 
-export default AdminPAge;
+export default AdminPage;
