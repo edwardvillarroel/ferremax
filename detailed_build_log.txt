@@ -1,0 +1,1529 @@
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\Maven\apache-maven-3.9.9
+Java version: 21.0.6, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+Default locale: es_CL, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Maven\apache-maven-3.9.9\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\edwar\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Maven\apache-maven-3.9.9\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\edwar\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\edwar\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\edwar\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Extension realms for project com:ferremax:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.2.2: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.2.2: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com:ferremax:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------------------< com:ferremax >----------------------------
+[INFO] Building ferremax 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com:ferremax:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): [compile+runtime]
+[DEBUG] Dependencies (resolve): [compile, compile+runtime, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerArgs>
+    <arg>--enable-preview</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>21</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">21</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">21</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.12.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerArgs>
+    <arg>--enable-preview</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac-test"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <release>21</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">21</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">21</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModulePath default-value="true"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:3.1.2:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <enableProcessChecker>${surefire.enableProcessChecker}</enableProcessChecker>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludeJUnit5Engines>${surefire.excludeJUnit5Engines}</excludeJUnit5Engines>
+  <excludedEnvironmentVariables>${surefire.excludedEnvironmentVariables}</excludedEnvironmentVariables>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>${surefire.excludes}</excludes>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests default-value="true">${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests default-value="false">${failIfNoTests}</failIfNoTests>
+  <failOnFlakeCount default-value="0">${surefire.failOnFlakeCount}</failOnFlakeCount>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkNode>${surefire.forkNode}</forkNode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includeJUnit5Engines>${surefire.includeJUnit5Engines}</includeJUnit5Engines>
+  <includes>${surefire.includes}</includes>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <runOrderRandomSeed>${surefire.runOrder.random.seed}</runOrderRandomSeed>
+  <session default-value="${session}"/>
+  <shutdown default-value="exit">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <systemPropertiesFile>${surefire.systemPropertiesFile}</systemPropertiesFile>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="false">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useModulePath default-value="true">${surefire.useModulePath}</useModulePath>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archive>
+    <manifest>
+      <mainClass>${start-class}</mainClass>
+      <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+    </manifest>
+  </archive>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.springframework.boot:spring-boot-maven-plugin:3.2.2:repackage (repackage)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attach default-value="true"/>
+  <excludeDevtools default-value="true">${spring-boot.repackage.excludeDevtools}</excludeDevtools>
+  <excludeDockerCompose default-value="true">${spring-boot.repackage.excludeDockerCompose}</excludeDockerCompose>
+  <excludeGroupIds default-value="">${spring-boot.excludeGroupIds}</excludeGroupIds>
+  <excludes>
+    <exclude>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </exclude>${spring-boot.excludes}</excludes>
+  <executable default-value="false"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <includeSystemScope default-value="false"/>
+  <includes>${spring-boot.includes}</includes>
+  <layout>${spring-boot.repackage.layout}</layout>
+  <mainClass>${start-class}</mainClass>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${spring-boot.repackage.skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:3.1.1:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <allowIncompleteProjects default-value="false">${allowIncompleteProjects}</allowIncompleteProjects>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <pluginDescriptor default-value="${plugin}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1895500, ConflictMarker.markTime=383900, ConflictMarker.nodeCount=759, ConflictIdSorter.graphTime=907900, ConflictIdSorter.topsortTime=573300, ConflictIdSorter.conflictIdCount=207, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=14118600, ConflictResolver.conflictItemCount=493, DfDependencyCollector.collectTime=694052500, DfDependencyCollector.transformTime=19529400}
+[DEBUG] com:ferremax:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-gateway:jar:4.1.0:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.cloud:spring-cloud-context:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.cloud:spring-cloud-commons:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.security:spring-security-rsa:jar:1.1.1:compile (version managed from 1.1.1) (exclusions managed from [org.springframework:spring-core:*:*, org.springframework.security:spring-security-crypto:*:*])
+[DEBUG]             org.bouncycastle:bcprov-jdk18on:jar:1.74:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-gateway-server:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.boot:spring-boot-starter-validation:jar:3.2.2:compile (version managed from 3.2.0)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.18:compile (version managed from 10.1.18)
+[DEBUG]             org.hibernate.validator:hibernate-validator:jar:8.0.1.Final:compile (version managed from 8.0.1.Final)
+[DEBUG]          io.projectreactor.addons:reactor-extra:jar:3.5.1:compile (version managed from 3.5.1)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:4.1.0:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.apache.httpcomponents.client5:httpclient5:jar:5.2.3:compile (version managed from 5.2.1)
+[DEBUG]             org.apache.httpcomponents.core5:httpcore5:jar:5.2.4:compile (version managed from 5.2.4)
+[DEBUG]             org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2.4:compile (version managed from 5.2.4)
+[DEBUG]       com.netflix.eureka:eureka-client:jar:2.0.1:compile (version managed from 2.0.1) (exclusions managed from [com.sun.jersey:jersey-client:*:*, com.sun.jersey:jersey-core:*:*, com.sun.jersey.contribs:jersey-apache-client4:*:*, aopalliance:aopalliance:*:*])
+[DEBUG]          com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:compile
+[DEBUG]             com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[DEBUG]                commons-jxpath:commons-jxpath:jar:1.3:runtime
+[DEBUG]                joda-time:joda-time:jar:2.3:runtime
+[DEBUG]                org.antlr:antlr-runtime:jar:3.4:runtime
+[DEBUG]                   org.antlr:stringtemplate:jar:3.2.1:runtime
+[DEBUG]                   antlr:antlr:jar:2.7.7:runtime
+[DEBUG]                com.google.code.gson:gson:jar:2.10.1:runtime (version managed from 2.1)
+[DEBUG]             org.apache.commons:commons-math:jar:2.2:runtime
+[DEBUG]          com.thoughtworks.xstream:xstream:jar:1.4.19:compile
+[DEBUG]             io.github.x-stream:mxparser:jar:1.2.2:compile
+[DEBUG]                xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]          jakarta.ws.rs:jakarta.ws.rs-api:jar:3.1.0:compile (version managed from 3.0.0)
+[DEBUG]          jakarta.inject:jakarta.inject-api:jar:2.0.1:compile
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (version managed from 2.1.0)
+[DEBUG]          com.netflix.servo:servo-core:jar:0.12.21:compile
+[DEBUG]             com.google.guava:guava:jar:19.0:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.4.16:compile (version managed from 4.4.6)
+[DEBUG]             commons-codec:commons-codec:jar:1.16.0:compile (version managed from 1.9)
+[DEBUG]          commons-configuration:commons-configuration:jar:1.10:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3:compile (version managed from 2.10.5)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.15.3:compile (version managed from 2.10.5)
+[DEBUG]          org.codehaus.jettison:jettison:jar:1.4.0:runtime
+[DEBUG]       com.netflix.eureka:eureka-core:jar:2.0.1:compile (version managed from 2.0.1) (exclusions managed from [com.netflix.archaius:archaius-core:*:*, jakarta.servlet:jakarta.servlet-api:*:*, javax.servlet:servlet-api:*:*, commons-logging:commons-logging:*:*, log4j:log4j:*:*, blitz4j:com.netflix.blitz4j:*:*, com.google.code.findbugs:annotations:*:*, com.google.code.findbugs:jsr305:*:*, com.fasterxml.jackson.dataformat:jackson-dataformat-xml:*:*, com.amazonaws:*:*:*])
+[DEBUG]          com.fasterxml.woodstox:woodstox-core:jar:6.2.1:compile
+[DEBUG]             org.codehaus.woodstox:stax2-api:jar:4.2.1:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.cloud:spring-cloud-loadbalancer:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.boot:spring-boot-starter-cache:jar:3.2.2:compile (version managed from 3.2.0)
+[DEBUG]             org.springframework:spring-context-support:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]          com.stoyanr:evictor:jar:1.0.0:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-actuator:jar:3.2.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.4.14:compile (version managed from 1.4.14)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.4.14:compile (version managed from 1.4.14)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (version managed from 2.21.1)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (version managed from 2.21.1)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:2.0.11:compile (version managed from 2.0.11)
+[DEBUG]          org.yaml:snakeyaml:jar:2.2:compile (version managed from 2.2)
+[DEBUG]       org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          org.springframework.boot:spring-boot-actuator:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.3:compile (version managed from 2.15.3)
+[DEBUG]       io.micrometer:micrometer-observation:jar:1.12.2:compile (version managed from 1.12.2)
+[DEBUG]          io.micrometer:micrometer-commons:jar:1.12.2:compile (version managed from 1.12.2)
+[DEBUG]       io.micrometer:micrometer-jakarta9:jar:1.12.2:compile (version managed from 1.12.2)
+[DEBUG]          io.micrometer:micrometer-core:jar:1.12.2:compile (version managed from 1.12.2)
+[DEBUG]             org.hdrhistogram:HdrHistogram:jar:2.1.12:runtime
+[DEBUG]             org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]    org.springframework.boot:spring-boot-starter-webflux:jar:3.2.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.3:compile (version managed from 2.15.3)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.3:compile (version managed from 2.15.3)
+[DEBUG]       org.springframework.boot:spring-boot-starter-reactor-netty:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          io.projectreactor.netty:reactor-netty-http:jar:1.1.15:compile (version managed from 1.1.15)
+[DEBUG]             io.netty:netty-codec-http:jar:4.1.105.Final:compile (version managed from 4.1.104.Final)
+[DEBUG]                io.netty:netty-common:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]                io.netty:netty-buffer:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]                io.netty:netty-transport:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]                io.netty:netty-codec:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]                io.netty:netty-handler:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]             io.netty:netty-codec-http2:jar:4.1.105.Final:compile (version managed from 4.1.104.Final)
+[DEBUG]             io.netty:netty-resolver-dns:jar:4.1.105.Final:compile (version managed from 4.1.104.Final)
+[DEBUG]                io.netty:netty-resolver:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]                io.netty:netty-codec-dns:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]             io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.105.Final:compile (version managed from 4.1.104.Final)
+[DEBUG]                io.netty:netty-resolver-dns-classes-macos:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]             io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.105.Final:compile (version managed from 4.1.104.Final)
+[DEBUG]                io.netty:netty-transport-native-unix-common:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]                io.netty:netty-transport-classes-epoll:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]             io.projectreactor.netty:reactor-netty-core:jar:1.1.15:compile (version managed from 1.1.15)
+[DEBUG]                io.netty:netty-handler-proxy:jar:4.1.105.Final:compile (version managed from 4.1.104.Final)
+[DEBUG]                   io.netty:netty-codec-socks:jar:4.1.105.Final:compile (version managed from 4.1.105.Final)
+[DEBUG]       org.springframework:spring-web:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]          org.springframework:spring-beans:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]       org.springframework:spring-webflux:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]          io.projectreactor:reactor-core:jar:3.6.2:compile (version managed from 3.6.2)
+[DEBUG]             org.reactivestreams:reactive-streams:jar:1.0.4:compile (version managed from 1.0.4)
+[DEBUG]    org.springframework.boot:spring-boot-starter-oauth2-client:jar:3.2.2:compile
+[DEBUG]       org.springframework.security:spring-security-config:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]          org.springframework:spring-context:jar:6.1.3:compile (version managed from 6.1.2)
+[DEBUG]       org.springframework.security:spring-security-core:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]          org.springframework.security:spring-security-crypto:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]          org.springframework:spring-expression:jar:6.1.3:compile (version managed from 6.1.2)
+[DEBUG]       org.springframework.security:spring-security-oauth2-client:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]          org.springframework.security:spring-security-oauth2-core:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]          com.nimbusds:oauth2-oidc-sdk:jar:9.43.3:compile
+[DEBUG]             com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[DEBUG]             com.nimbusds:content-type:jar:2.2:compile
+[DEBUG]             com.nimbusds:lang-tag:jar:1.7:compile
+[DEBUG]       org.springframework.security:spring-security-oauth2-jose:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]          com.nimbusds:nimbus-jose-jwt:jar:9.24.4:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-security:jar:3.2.2:compile
+[DEBUG]       org.springframework:spring-aop:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]       org.springframework.security:spring-security-web:jar:6.2.1:compile (version managed from 6.2.1)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-config:jar:4.1.0:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-config-client:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.15.3:compile (version managed from 2.15.3)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:4.1.0:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:4.1.0:compile (version managed from 4.1.0)
+[DEBUG]          org.springframework.boot:spring-boot-starter-web:jar:3.2.2:compile (version managed from 3.2.0)
+[DEBUG]             org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]                org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.18:compile (version managed from 10.1.18)
+[DEBUG]                org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.18:compile (version managed from 10.1.18)
+[DEBUG]             org.springframework:spring-webmvc:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]          org.springframework.boot:spring-boot-starter-freemarker:jar:3.2.2:compile (version managed from 3.2.0)
+[DEBUG]             org.freemarker:freemarker:jar:2.3.32:compile (version managed from 2.3.32)
+[DEBUG]          com.netflix.eureka:eureka-client-jersey3:jar:2.0.1:compile (version managed from 2.0.1) (exclusions managed from [aopalliance:aopalliance:*:*])
+[DEBUG]             org.glassfish.jersey.connectors:jersey-apache-connector:jar:3.1.5:compile (version managed from 3.0.5)
+[DEBUG]          com.netflix.eureka:eureka-core-jersey3:jar:2.0.1:compile (version managed from 2.0.1)
+[DEBUG]          org.glassfish.jersey.containers:jersey-container-servlet:jar:3.1.5:compile (version managed from 3.1.3)
+[DEBUG]             org.glassfish.jersey.containers:jersey-container-servlet-core:jar:3.1.5:compile (version managed from 3.1.5)
+[DEBUG]             org.glassfish.jersey.core:jersey-common:jar:3.1.5:compile (version managed from 3.1.5)
+[DEBUG]                org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[DEBUG]          org.glassfish.jersey.core:jersey-server:jar:3.1.5:compile (version managed from 3.1.3)
+[DEBUG]             jakarta.validation:jakarta.validation-api:jar:3.0.2:compile (version managed from 3.0.2)
+[DEBUG]          org.glassfish.jersey.core:jersey-client:jar:3.1.5:compile (version managed from 3.1.3)
+[DEBUG]          org.glassfish.jersey.inject:jersey-hk2:jar:3.1.5:compile (version managed from 3.1.3)
+[DEBUG]             org.glassfish.hk2:hk2-locator:jar:3.0.5:compile
+[DEBUG]                org.glassfish.hk2.external:aopalliance-repackaged:jar:3.0.5:compile
+[DEBUG]                org.glassfish.hk2:hk2-utils:jar:3.0.5:compile
+[DEBUG]             org.javassist:javassist:jar:3.29.2-GA:compile
+[DEBUG]          org.glassfish.hk2:spring-bridge:jar:3.0.5:compile
+[DEBUG]             org.glassfish.hk2:hk2-api:jar:3.0.5:compile
+[DEBUG]          com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.15.3:compile (version managed from 2.15.3)
+[DEBUG]       org.glassfish.jaxb:jaxb-runtime:jar:4.0.4:compile (version managed from 4.0.4)
+[DEBUG]          org.glassfish.jaxb:jaxb-core:jar:4.0.4:compile (version managed from 4.0.4)
+[DEBUG]             org.eclipse.angus:angus-activation:jar:2.0.1:runtime (version managed from 2.0.1)
+[DEBUG]             org.glassfish.jaxb:txw2:jar:4.0.4:compile (version managed from 4.0.4)
+[DEBUG]             com.sun.istack:istack-commons-runtime:jar:4.1.2:compile (version managed from 4.1.2)
+[DEBUG]    org.springframework.boot:spring-boot-devtools:jar:3.2.2:runtime (optional)
+[DEBUG]       org.springframework.boot:spring-boot:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]       org.springframework.boot:spring-boot-autoconfigure:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]    org.projectlombok:lombok:jar:1.18.30:provided
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:3.2.2:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:3.2.2:test (version managed from 3.2.2)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:3.2.2:test (version managed from 3.2.2)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.8.0:test (version managed from 2.8.0)
+[DEBUG]          org.slf4j:slf4j-api:jar:2.0.11:compile (version managed from 1.7.36)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:compile (version managed from 4.0.1)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:2.1.2:compile (version managed from 2.1.2)
+[DEBUG]       net.minidev:json-smart:jar:2.5.0:compile (version managed from 2.5.0)
+[DEBUG]          net.minidev:accessors-smart:jar:2.5.0:compile
+[DEBUG]             org.ow2.asm:asm:jar:9.3:compile
+[DEBUG]       org.assertj:assertj-core:jar:3.24.2:test (version managed from 3.24.2)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.14.11:runtime (version managed from 1.12.21)
+[DEBUG]       org.awaitility:awaitility:jar:4.2.0:test (version managed from 4.2.0)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.10.1:test (version managed from 5.10.1)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.10.1:test (version managed from 5.10.1)
+[DEBUG]             org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.10.1:test (version managed from 1.10.1)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.10.1:test (version managed from 5.10.1)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.10.1:test (version managed from 5.10.1)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.10.1:test (version managed from 1.10.1)
+[DEBUG]       org.mockito:mockito-core:jar:5.7.0:test (version managed from 5.7.0)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.14.11:test (version managed from 1.14.9)
+[DEBUG]          org.objenesis:objenesis:jar:3.3:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:5.7.0:test (version managed from 5.7.0)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.1:test (version managed from 1.5.1)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]          org.springframework:spring-jcl:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]       org.springframework:spring-test:jar:6.1.3:test (version managed from 6.1.3)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.9.1:test (version managed from 2.9.1)
+[DEBUG]    org.springframework.security:spring-security-test:jar:6.2.1:test
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-aop:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.21:compile (version managed from 1.9.21)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          com.zaxxer:HikariCP:jar:5.0.1:compile (version managed from 5.0.1)
+[DEBUG]          org.springframework:spring-jdbc:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]       org.hibernate.orm:hibernate-core:jar:6.4.1.Final:compile (version managed from 6.4.1.Final)
+[DEBUG]          jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (version managed from 3.1.0)
+[DEBUG]          jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (version managed from 2.0.1)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.5.3.Final:compile (version managed from 3.5.0.Final)
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime
+[DEBUG]          io.smallrye:jandex:jar:3.1.2:runtime
+[DEBUG]          com.fasterxml:classmate:jar:1.6.0:compile (version managed from 1.5.1)
+[DEBUG]          org.antlr:antlr4-runtime:jar:4.13.0:compile
+[DEBUG]       org.springframework.data:spring-data-jpa:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          org.springframework.data:spring-data-commons:jar:3.2.2:compile (version managed from 3.2.2)
+[DEBUG]          org.springframework:spring-orm:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]          org.springframework:spring-tx:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]       org.springframework:spring-aspects:jar:6.1.3:compile (version managed from 6.1.3)
+[DEBUG]    com.h2database:h2:jar:2.2.224:runtime
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ferremax ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=47900, ConflictMarker.markTime=17800, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=27400, ConflictIdSorter.topsortTime=7600, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=107200, ConflictResolver.conflictItemCount=2, DfDependencyCollector.collectTime=6994600, DfDependencyCollector.transformTime=218900}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.3.2
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.3.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@673c4f6e
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target
+[INFO] Deleting file C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting file C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\maven-status
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[INFO] Deleting directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target
+[DEBUG] Skipping non-existing directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ferremax ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=90900, ConflictMarker.markTime=16300, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=56400, ConflictIdSorter.topsortTime=10000, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=126200, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=43424900, DfDependencyCollector.transformTime=315600}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com:ferremax:0.0.1-SNAPSHOT @ C:\Users\edwar\Downloads\ferremax-main\ferremax-main\pom.xml
+[DEBUG]   (f) propertiesEncoding = UTF-8
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@673c4f6e
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] activemq.version: 5.18.3
+[DEBUG] angus-mail.version: 2.0.2
+[DEBUG] artemis.version: 2.31.2
+[DEBUG] aspectj.version: 1.9.21
+[DEBUG] assertj.version: 3.24.2
+[DEBUG] awaitility.version: 4.2.0
+[DEBUG] brave.version: 5.16.0
+[DEBUG] build-helper-maven-plugin.version: 3.4.0
+[DEBUG] byte-buddy.version: 1.14.11
+[DEBUG] cache2k.version: 2.6.1.Final
+[DEBUG] caffeine.version: 3.1.8
+[DEBUG] cassandra-driver.version: 4.17.0
+[DEBUG] classmate.version: 1.6.0
+[DEBUG] classworlds.conf: C:\Maven\apache-maven-3.9.9\bin\m2.conf
+[DEBUG] commons-codec.version: 1.16.0
+[DEBUG] commons-dbcp2.version: 2.10.0
+[DEBUG] commons-lang3.version: 3.13.0
+[DEBUG] commons-pool.version: 1.6
+[DEBUG] commons-pool2.version: 2.12.0
+[DEBUG] couchbase-client.version: 3.4.11
+[DEBUG] crac.version: 1.4.0
+[DEBUG] db2-jdbc.version: 11.5.9.0
+[DEBUG] dependency-management-plugin.version: 1.1.4
+[DEBUG] derby.version: 10.16.1.1
+[DEBUG] dropwizard-metrics.version: 4.2.23
+[DEBUG] ehcache3.version: 3.10.8
+[DEBUG] elasticsearch-client.version: 8.10.4
+[DEBUG] env.=C:: C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG] env.ALLUSERSPROFILE: C:\ProgramData
+[DEBUG] env.APPDATA: C:\Users\edwar\AppData\Roaming
+[DEBUG] env.CHOCOLATEYINSTALL: C:\ProgramData\chocolatey
+[DEBUG] env.CHOCOLATEYLASTPATHUPDATE: 133900194168994485
+[DEBUG] env.CHROME_CRASHPAD_PIPE_NAME: \\.\pipe\crashpad_11340_RCLPDGLYPQINVPSU
+[DEBUG] env.CLASSWORLDS_JAR: "C:\Maven\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar"
+[DEBUG] env.CLASSWORLDS_LAUNCHER: org.codehaus.plexus.classworlds.launcher.Launcher
+[DEBUG] env.COLORTERM: truecolor
+[DEBUG] env.COMMONPROGRAMFILES: C:\Program Files\Common Files
+[DEBUG] env.COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+[DEBUG] env.COMMONPROGRAMW6432: C:\Program Files\Common Files
+[DEBUG] env.COMPUTERNAME: EDWARD
+[DEBUG] env.COMSPEC: C:\WINDOWS\system32\cmd.exe
+[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+[DEBUG] env.ERROR_CODE: 0
+[DEBUG] env.EXEC_DIR: C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG] env.GIT_ASKPASS: c:\Users\edwar\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+[DEBUG] env.HOMEDRIVE: C:
+[DEBUG] env.HOMEPATH: \Users\edwar
+[DEBUG] env.IGCCSVC_DB: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVl1GlYSRXU2EQBMPIKy+iwQAAAACAAAAAAAQZgAAAAEAACAAAAAB/4Q2keKAUuwV5BeKUYMpw2V68PGcCO5mvzn3eCcJvwAAAAAOgAAAAAIAACAAAAC2pexNkBL1mAbyyk+yLnhHi+1pOtVy04ozsd6cjQoFJGAAAADLjWK62XJ0Wa6QlCjvmaseBTKrJVJ65HJWkd0NqqbvVVEqUVZJUDioE/BUj5e6PMYXjjPdYrCIK/WnCSMiiHL7BSWudCaOIAW5CAqfsV4mkeeD5GpJLcH0vY1S6QDSIiFAAAAAZ34hdw8pSAO3SHCLQcJBHrH2yGg5XWs5M6DM8Jc1OajOoWRTj16as/UKPxy3v4eLPtJGdxMKxI+pLeBN4Keq0w==
+[DEBUG] env.JAVACMD: C:\Program Files\Java\jdk-21\bin\java.exe
+[DEBUG] env.JAVA_HOME: C:\Program Files\Java\jdk-21
+[DEBUG] env.JD2_HOME: C:\Users\edwar\AppData\Local\JDownloader 2.0
+[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+[DEBUG] env.LANG: en_US.UTF-8
+[DEBUG] env.LOCALAPPDATA: C:\Users\edwar\AppData\Local
+[DEBUG] env.LOGONSERVER: \\EDWARD
+[DEBUG] env.MAVEN_CMD_LINE_ARGS: clean install -X
+[DEBUG] env.MAVEN_HOME: C:\Maven\apache-maven-3.9.9
+[DEBUG] env.MAVEN_PROJECTBASEDIR: C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG] env.NUMBER_OF_PROCESSORS: 12
+[DEBUG] env.ONEDRIVE: C:\Users\edwar\OneDrive
+[DEBUG] env.ONLINESERVICES: Online Services
+[DEBUG] env.ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+[DEBUG] env.OS: Windows_NT
+[DEBUG] env.PATH: C:\Users\edwar\Downloads\WINDOWS.X64_213000_db_home\bin;C:\Users\edwar\Downloads\WINDOWS.X64_193000_db_home\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Maven\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-21\bin;c:\Users\edwar\AppData\Local\Programs\Trae\bin;C:\Users\edwar\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\edwar\AppData\Local\Programs\Python\Python312\;C:\Users\edwar\AppData\Local\Microsoft\WindowsApps;C:\Users\edwar\AppData\Roaming\npm;C:\Users\edwar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\edwar\AppData\Local\GitHubDesktop\bin;C:\Users\edwar\Downloads\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin
+[DEBUG] env.PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+[DEBUG] env.PLATFORMCODE: M7
+[DEBUG] env.PROCESSOR_ARCHITECTURE: AMD64
+[DEBUG] env.PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+[DEBUG] env.PROCESSOR_LEVEL: 6
+[DEBUG] env.PROCESSOR_REVISION: 8d01
+[DEBUG] env.PROGRAMDATA: C:\ProgramData
+[DEBUG] env.PROGRAMFILES: C:\Program Files
+[DEBUG] env.PROGRAMFILES(X86): C:\Program Files (x86)
+[DEBUG] env.PROGRAMW6432: C:\Program Files
+[DEBUG] env.PROMPT: $P$G
+[DEBUG] env.PSMODULEPATH: C:\Users\edwar\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+[DEBUG] env.PUBLIC: C:\Users\Public
+[DEBUG] env.REGIONCODE: LA
+[DEBUG] env.SYSTEMDRIVE: C:
+[DEBUG] env.SYSTEMROOT: C:\WINDOWS
+[DEBUG] env.TEMP: C:\Users\edwar\AppData\Local\Temp
+[DEBUG] env.TERM_PROGRAM: vscode
+[DEBUG] env.TERM_PROGRAM_VERSION: 1.93.1
+[DEBUG] env.TMP: C:\Users\edwar\AppData\Local\Temp
+[DEBUG] env.USERDOMAIN: EDWARD
+[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: EDWARD
+[DEBUG] env.USERNAME: edwar
+[DEBUG] env.USERPROFILE: C:\Users\edwar
+[DEBUG] env.VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+[DEBUG] env.VSCODE_GIT_ASKPASS_MAIN: c:\Users\edwar\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+[DEBUG] env.VSCODE_GIT_ASKPASS_NODE: C:\Users\edwar\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[DEBUG] env.VSCODE_GIT_IPC_HANDLE: \\.\pipe\vscode-git-ba3fb07774-sock
+[DEBUG] env.VSCODE_INJECTION: 1
+[DEBUG] env.WDIR: C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG] env.WINDIR: C:\WINDOWS
+[DEBUG] env.ZES_ENABLE_SYSMAN: 1
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: \
+[DEBUG] flyway.version: 9.22.3
+[DEBUG] freemarker.version: 2.3.32
+[DEBUG] git-commit-id-maven-plugin.version: 6.0.0
+[DEBUG] glassfish-jaxb.version: 4.0.4
+[DEBUG] glassfish-jstl.version: 3.0.1
+[DEBUG] graphql-java.version: 21.3
+[DEBUG] groovy.version: 4.0.17
+[DEBUG] gson.version: 2.10.1
+[DEBUG] h2.version: 2.2.224
+[DEBUG] hamcrest.version: 2.2
+[DEBUG] hazelcast.version: 5.3.6
+[DEBUG] hibernate-validator.version: 8.0.1.Final
+[DEBUG] hibernate.version: 6.4.1.Final
+[DEBUG] hikaricp.version: 5.0.1
+[DEBUG] hsqldb.version: 2.7.2
+[DEBUG] htmlunit.version: 2.70.0
+[DEBUG] httpasyncclient.version: 4.1.5
+[DEBUG] httpclient5.version: 5.2.3
+[DEBUG] httpcore.version: 4.4.16
+[DEBUG] httpcore5.version: 5.2.4
+[DEBUG] infinispan.version: 14.0.21.Final
+[DEBUG] influxdb-java.version: 2.23
+[DEBUG] jackson-bom.version: 2.15.3
+[DEBUG] jakarta-activation.version: 2.1.2
+[DEBUG] jakarta-annotation.version: 2.1.1
+[DEBUG] jakarta-jms.version: 3.1.0
+[DEBUG] jakarta-json-bind.version: 3.0.0
+[DEBUG] jakarta-json.version: 2.1.3
+[DEBUG] jakarta-mail.version: 2.1.2
+[DEBUG] jakarta-management.version: 1.1.4
+[DEBUG] jakarta-persistence.version: 3.1.0
+[DEBUG] jakarta-servlet-jsp-jstl.version: 3.0.0
+[DEBUG] jakarta-servlet.version: 6.0.0
+[DEBUG] jakarta-transaction.version: 2.0.1
+[DEBUG] jakarta-validation.version: 3.0.2
+[DEBUG] jakarta-websocket.version: 2.1.1
+[DEBUG] jakarta-ws-rs.version: 3.1.0
+[DEBUG] jakarta-xml-bind.version: 4.0.1
+[DEBUG] jakarta-xml-soap.version: 3.0.1
+[DEBUG] jakarta-xml-ws.version: 4.0.1
+[DEBUG] janino.version: 3.1.11
+[DEBUG] java.class.path: C:\Maven\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 65.0
+[DEBUG] java.home: C:\Program Files\Java\jdk-21
+[DEBUG] java.io.tmpdir: C:\Users\edwar\AppData\Local\Temp\
+[DEBUG] java.library.path: C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\edwar\Downloads\WINDOWS.X64_213000_db_home\bin;C:\Users\edwar\Downloads\WINDOWS.X64_193000_db_home\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Maven\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-21\bin;c:\Users\edwar\AppData\Local\Programs\Trae\bin;C:\Users\edwar\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\edwar\AppData\Local\Programs\Python\Python312\;C:\Users\edwar\AppData\Local\Microsoft\WindowsApps;C:\Users\edwar\AppData\Roaming\npm;C:\Users\edwar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\edwar\AppData\Local\GitHubDesktop\bin;C:\Users\edwar\Downloads\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin;.
+[DEBUG] java.runtime.name: Java(TM) SE Runtime Environment
+[DEBUG] java.runtime.version: 21.0.6+8-LTS-188
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 21
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 21.0.6
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 21
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 21.0.6+8-LTS-188
+[DEBUG] javax-cache.version: 1.1.1
+[DEBUG] javax-money.version: 1.1
+[DEBUG] jaxen.version: 2.0.0
+[DEBUG] jaybird.version: 5.0.3.java11
+[DEBUG] jboss-logging.version: 3.5.3.Final
+[DEBUG] jdk.debug: release
+[DEBUG] jdom2.version: 2.0.6.1
+[DEBUG] jedis.version: 5.0.2
+[DEBUG] jersey.version: 3.1.5
+[DEBUG] jetty-reactive-httpclient.version: 4.0.1
+[DEBUG] jetty.version: 12.0.5
+[DEBUG] jmustache.version: 1.15
+[DEBUG] jooq.version: 3.18.9
+[DEBUG] json-path.version: 2.8.0
+[DEBUG] json-smart.version: 2.5.0
+[DEBUG] jsonassert.version: 1.5.1
+[DEBUG] jtds.version: 1.3.1
+[DEBUG] junit-jupiter.version: 5.10.1
+[DEBUG] junit.version: 4.13.2
+[DEBUG] kafka.version: 3.6.1
+[DEBUG] kotlin-coroutines.version: 1.7.3
+[DEBUG] kotlin-serialization.version: 1.6.2
+[DEBUG] kotlin.version: 1.9.22
+[DEBUG] lettuce.version: 6.3.1.RELEASE
+[DEBUG] library.jansi.path: C:\Maven\apache-maven-3.9.9\lib\jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] liquibase.version: 4.24.0
+[DEBUG] log4j2.version: 2.21.1
+[DEBUG] logback.version: 1.4.14
+[DEBUG] lombok.version: 1.18.30
+[DEBUG] mariadb.version: 3.3.2
+[DEBUG] maven-antrun-plugin.version: 3.1.0
+[DEBUG] maven-assembly-plugin.version: 3.6.0
+[DEBUG] maven-clean-plugin.version: 3.3.2
+[DEBUG] maven-compiler-plugin.version: 3.11.0
+[DEBUG] maven-dependency-plugin.version: 3.6.1
+[DEBUG] maven-deploy-plugin.version: 3.1.1
+[DEBUG] maven-enforcer-plugin.version: 3.4.1
+[DEBUG] maven-failsafe-plugin.version: 3.1.2
+[DEBUG] maven-help-plugin.version: 3.4.0
+[DEBUG] maven-install-plugin.version: 3.1.1
+[DEBUG] maven-invoker-plugin.version: 3.6.0
+[DEBUG] maven-jar-plugin.version: 3.3.0
+[DEBUG] maven-javadoc-plugin.version: 3.6.3
+[DEBUG] maven-resources-plugin.version: 3.3.1
+[DEBUG] maven-shade-plugin.version: 3.5.1
+[DEBUG] maven-source-plugin.version: 3.3.0
+[DEBUG] maven-surefire-plugin.version: 3.1.2
+[DEBUG] maven-war-plugin.version: 3.4.0
+[DEBUG] maven.build.timestamp: 2025-05-19T19:10:14Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.release: 21
+[DEBUG] maven.conf: C:\Maven\apache-maven-3.9.9/conf
+[DEBUG] maven.home: C:\Maven\apache-maven-3.9.9
+[DEBUG] maven.multiModuleProjectDirectory: C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG] maven.version: 3.9.9
+[DEBUG] micrometer-tracing.version: 1.2.2
+[DEBUG] micrometer.version: 1.12.2
+[DEBUG] mockito.version: 5.7.0
+[DEBUG] mongodb.version: 4.11.1
+[DEBUG] mssql-jdbc.version: 12.4.2.jre11
+[DEBUG] mysql.version: 8.3.0
+[DEBUG] native-build-tools-plugin.version: 0.9.28
+[DEBUG] native.encoding: Cp1252
+[DEBUG] nekohtml.version: 1.9.22
+[DEBUG] neo4j-java-driver.version: 5.15.0
+[DEBUG] netty.version: 4.1.105.Final
+[DEBUG] okhttp.version: 4.12.0
+[DEBUG] opentelemetry.version: 1.31.0
+[DEBUG] oracle-database.version: 21.9.0.0
+[DEBUG] oracle-r2dbc.version: 1.1.1
+[DEBUG] os.arch: amd64
+[DEBUG] os.name: Windows 11
+[DEBUG] os.version: 10.0
+[DEBUG] path.separator: ;
+[DEBUG] pooled-jms.version: 3.1.5
+[DEBUG] postgresql.version: 42.6.0
+[DEBUG] project.baseUri: file:/C:/Users/edwar/Downloads/ferremax-main/ferremax-main/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] project.reporting.outputEncoding: UTF-8
+[DEBUG] prometheus-client.version: 0.16.0
+[DEBUG] pulsar-reactive.version: 0.5.2
+[DEBUG] pulsar.version: 3.1.2
+[DEBUG] quartz.version: 2.3.2
+[DEBUG] querydsl.version: 5.0.0
+[DEBUG] r2dbc-h2.version: 1.0.0.RELEASE
+[DEBUG] r2dbc-mariadb.version: 1.1.4
+[DEBUG] r2dbc-mssql.version: 1.0.2.RELEASE
+[DEBUG] r2dbc-mysql.version: 1.0.6
+[DEBUG] r2dbc-pool.version: 1.0.1.RELEASE
+[DEBUG] r2dbc-postgresql.version: 1.0.4.RELEASE
+[DEBUG] r2dbc-proxy.version: 1.1.4.RELEASE
+[DEBUG] r2dbc-spi.version: 1.0.0.RELEASE
+[DEBUG] rabbit-amqp-client.version: 5.19.0
+[DEBUG] rabbit-stream-client.version: 0.14.0
+[DEBUG] reactive-streams.version: 1.0.4
+[DEBUG] reactor-bom.version: 2023.0.2
+[DEBUG] resource.delimiter: @
+[DEBUG] rest-assured.version: 5.3.2
+[DEBUG] rsocket.version: 1.1.3
+[DEBUG] rxjava3.version: 3.1.8
+[DEBUG] saaj-impl.version: 3.0.3
+[DEBUG] selenium-htmlunit.version: 4.13.0
+[DEBUG] selenium.version: 4.14.1
+[DEBUG] sendgrid.version: 4.9.3
+[DEBUG] slf4j.version: 2.0.11
+[DEBUG] snakeyaml.version: 2.2
+[DEBUG] spring-amqp.version: 3.1.1
+[DEBUG] spring-authorization-server.version: 1.2.1
+[DEBUG] spring-batch.version: 5.1.0
+[DEBUG] spring-cloud.version: 2023.0.0
+[DEBUG] spring-data-bom.version: 2023.1.2
+[DEBUG] spring-framework.version: 6.1.3
+[DEBUG] spring-graphql.version: 1.2.4
+[DEBUG] spring-hateoas.version: 2.2.0
+[DEBUG] spring-integration.version: 6.2.1
+[DEBUG] spring-kafka.version: 3.1.1
+[DEBUG] spring-ldap.version: 3.2.1
+[DEBUG] spring-pulsar.version: 1.0.2
+[DEBUG] spring-restdocs.version: 3.0.1
+[DEBUG] spring-retry.version: 2.0.5
+[DEBUG] spring-security.version: 6.2.1
+[DEBUG] spring-session.version: 3.2.1
+[DEBUG] spring-ws.version: 4.0.10
+[DEBUG] sqlite-jdbc.version: 3.43.2.0
+[DEBUG] stderr.encoding: Cp1252
+[DEBUG] stdout.encoding: Cp1252
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: C:\Program Files\Java\jdk-21\bin
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.cpu.isalist: amd64
+[DEBUG] sun.io.unicode.encoding: UnicodeLittle
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean install -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: Cp1252
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] sun.os.patch.level: 
+[DEBUG] testcontainers.version: 1.19.3
+[DEBUG] thymeleaf-extras-data-attribute.version: 2.0.1
+[DEBUG] thymeleaf-extras-springsecurity.version: 3.1.2.RELEASE
+[DEBUG] thymeleaf-layout-dialect.version: 3.3.0
+[DEBUG] thymeleaf.version: 3.1.2.RELEASE
+[DEBUG] tomcat.version: 10.1.18
+[DEBUG] unboundid-ldapsdk.version: 6.0.11
+[DEBUG] undertow.version: 2.3.10.Final
+[DEBUG] user.country: CL
+[DEBUG] user.dir: C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG] user.home: C:\Users\edwar
+[DEBUG] user.language: es
+[DEBUG] user.name: edwar
+[DEBUG] user.script: 
+[DEBUG] user.variant: 
+[DEBUG] versions-maven-plugin.version: 2.16.2
+[DEBUG] webjars-locator-core.version: 0.55
+[DEBUG] wsdl4j.version: 1.6.3
+[DEBUG] xml-maven-plugin.version: 1.1.0
+[DEBUG] xmlunit2.version: 2.9.1
+[DEBUG] yasson.version: 3.0.3
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[INFO] skip non existing resourceDirectory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\resources
+[DEBUG] resource with targetPath null
+directory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\resources
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ ferremax ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=62700, ConflictMarker.markTime=16600, ConflictMarker.nodeCount=21, ConflictIdSorter.graphTime=19900, ConflictIdSorter.topsortTime=13700, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=137600, ConflictResolver.conflictItemCount=21, DfDependencyCollector.collectTime=37510400, DfDependencyCollector.transformTime=273900}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.12.1
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.14.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.14.2:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.14.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.12.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.12.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.12.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.12.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.14.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.14.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.14.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.12.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\edwar\Downloads\ferremax-main\ferremax-main
+[DEBUG]   (f) buildDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target
+[DEBUG]   (f) compilePath = [C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-gateway\4.1.0\spring-cloud-starter-gateway-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter\4.1.0\spring-cloud-starter-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-context\4.1.0\spring-cloud-context-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-commons\4.1.0\spring-cloud-commons-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-rsa\1.1.1\spring-security-rsa-1.1.1.jar, C:\Users\edwar\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.74\bcprov-jdk18on-1.74.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-gateway-server\4.1.0\spring-cloud-gateway-server-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.2\spring-boot-starter-validation-3.2.2.jar, C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.18\tomcat-embed-el-10.1.18.jar, C:\Users\edwar\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar, C:\Users\edwar\.m2\repository\io\projectreactor\addons\reactor-extra\3.5.1\reactor-extra-3.5.1.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\4.1.0\spring-cloud-starter-netflix-eureka-client-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\4.1.0\spring-cloud-netflix-eureka-client-4.1.0.jar, C:\Users\edwar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.3\httpclient5-5.2.3.jar, C:\Users\edwar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2.4\httpcore5-5.2.4.jar, C:\Users\edwar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2.4\httpcore5-h2-5.2.4.jar, C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-client\2.0.1\eureka-client-2.0.1.jar, C:\Users\edwar\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar, C:\Users\edwar\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar, C:\Users\edwar\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar, C:\Users\edwar\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar, C:\Users\edwar\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar, C:\Users\edwar\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar, C:\Users\edwar\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar, C:\Users\edwar\.m2\repository\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar, C:\Users\edwar\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar, C:\Users\edwar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar, C:\Users\edwar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar, C:\Users\edwar\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar, C:\Users\edwar\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar, C:\Users\edwar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar, C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-core\2.0.1\eureka-core-2.0.1.jar, C:\Users\edwar\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.2.1\woodstox-core-6.2.1.jar, C:\Users\edwar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-loadbalancer\4.1.0\spring-cloud-starter-loadbalancer-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-loadbalancer\4.1.0\spring-cloud-loadbalancer-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.2.2\spring-boot-starter-cache-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-context-support\6.1.3\spring-context-support-6.1.3.jar, C:\Users\edwar\.m2\repository\com\stoyanr\evictor\1.0.0\evictor-1.0.0.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.2.2\spring-boot-starter-actuator-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.2\spring-boot-starter-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.2\spring-boot-starter-logging-3.2.2.jar, C:\Users\edwar\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar, C:\Users\edwar\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar, C:\Users\edwar\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar, C:\Users\edwar\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar, C:\Users\edwar\.m2\repository\org\slf4j\jul-to-slf4j\2.0.11\jul-to-slf4j-2.0.11.jar, C:\Users\edwar\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.2.2\spring-boot-actuator-autoconfigure-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-actuator\3.2.2\spring-boot-actuator-3.2.2.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar, C:\Users\edwar\.m2\repository\io\micrometer\micrometer-observation\1.12.2\micrometer-observation-1.12.2.jar, C:\Users\edwar\.m2\repository\io\micrometer\micrometer-commons\1.12.2\micrometer-commons-1.12.2.jar, C:\Users\edwar\.m2\repository\io\micrometer\micrometer-jakarta9\1.12.2\micrometer-jakarta9-1.12.2.jar, C:\Users\edwar\.m2\repository\io\micrometer\micrometer-core\1.12.2\micrometer-core-1.12.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-webflux\3.2.2\spring-boot-starter-webflux-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.2\spring-boot-starter-json-3.2.2.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-reactor-netty\3.2.2\spring-boot-starter-reactor-netty-3.2.2.jar, C:\Users\edwar\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.1.15\reactor-netty-http-1.1.15.jar, C:\Users\edwar\.m2\repository\io\netty\netty-codec-http\4.1.105.Final\netty-codec-http-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-common\4.1.105.Final\netty-common-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-buffer\4.1.105.Final\netty-buffer-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-transport\4.1.105.Final\netty-transport-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-codec\4.1.105.Final\netty-codec-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-handler\4.1.105.Final\netty-handler-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-codec-http2\4.1.105.Final\netty-codec-http2-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns\4.1.105.Final\netty-resolver-dns-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-resolver\4.1.105.Final\netty-resolver-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-codec-dns\4.1.105.Final\netty-codec-dns-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.105.Final\netty-resolver-dns-native-macos-4.1.105.Final-osx-x86_64.jar, C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.105.Final\netty-resolver-dns-classes-macos-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.105.Final\netty-transport-native-epoll-4.1.105.Final-linux-x86_64.jar, C:\Users\edwar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.105.Final\netty-transport-native-unix-common-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.105.Final\netty-transport-classes-epoll-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.1.15\reactor-netty-core-1.1.15.jar, C:\Users\edwar\.m2\repository\io\netty\netty-handler-proxy\4.1.105.Final\netty-handler-proxy-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\io\netty\netty-codec-socks\4.1.105.Final\netty-codec-socks-4.1.105.Final.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-web\6.1.3\spring-web-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-beans\6.1.3\spring-beans-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-webflux\6.1.3\spring-webflux-6.1.3.jar, C:\Users\edwar\.m2\repository\io\projectreactor\reactor-core\3.6.2\reactor-core-3.6.2.jar, C:\Users\edwar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-client\3.2.2\spring-boot-starter-oauth2-client-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-config\6.2.1\spring-security-config-6.2.1.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-context\6.1.3\spring-context-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-core\6.2.1\spring-security-core-6.2.1.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-crypto\6.2.1\spring-security-crypto-6.2.1.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-expression\6.1.3\spring-expression-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-client\6.2.1\spring-security-oauth2-client-6.2.1.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-core\6.2.1\spring-security-oauth2-core-6.2.1.jar, C:\Users\edwar\.m2\repository\com\nimbusds\oauth2-oidc-sdk\9.43.3\oauth2-oidc-sdk-9.43.3.jar, C:\Users\edwar\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar, C:\Users\edwar\.m2\repository\com\nimbusds\content-type\2.2\content-type-2.2.jar, C:\Users\edwar\.m2\repository\com\nimbusds\lang-tag\1.7\lang-tag-1.7.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-jose\6.2.1\spring-security-oauth2-jose-6.2.1.jar, C:\Users\edwar\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.24.4\nimbus-jose-jwt-9.24.4.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.2\spring-boot-starter-security-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-aop\6.1.3\spring-aop-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-web\6.2.1\spring-security-web-6.2.1.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\4.1.0\spring-cloud-starter-config-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-config-client\4.1.0\spring-cloud-config-client-4.1.0.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-server\4.1.0\spring-cloud-starter-netflix-eureka-server-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-server\4.1.0\spring-cloud-netflix-eureka-server-4.1.0.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.2\spring-boot-starter-web-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.2\spring-boot-starter-tomcat-3.2.2.jar, C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.18\tomcat-embed-core-10.1.18.jar, C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.18\tomcat-embed-websocket-10.1.18.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-webmvc\6.1.3\spring-webmvc-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-freemarker\3.2.2\spring-boot-starter-freemarker-3.2.2.jar, C:\Users\edwar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar, C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-client-jersey3\2.0.1\eureka-client-jersey3-2.0.1.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\connectors\jersey-apache-connector\3.1.5\jersey-apache-connector-3.1.5.jar, C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-core-jersey3\2.0.1\eureka-core-jersey3-2.0.1.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\3.1.5\jersey-container-servlet-3.1.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\3.1.5\jersey-container-servlet-core-3.1.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-common\3.1.5\jersey-common-3.1.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-server\3.1.5\jersey-server-3.1.5.jar, C:\Users\edwar\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-client\3.1.5\jersey-client-3.1.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\3.1.5\jersey-hk2-3.1.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-locator\3.0.5\hk2-locator-3.0.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\3.0.5\aopalliance-repackaged-3.0.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-utils\3.0.5\hk2-utils-3.0.5.jar, C:\Users\edwar\.m2\repository\org\javassist\javassist\3.29.2-GA\javassist-3.29.2-GA.jar, C:\Users\edwar\.m2\repository\org\glassfish\hk2\spring-bridge\3.0.5\spring-bridge-3.0.5.jar, C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-api\3.0.5\hk2-api-3.0.5.jar, C:\Users\edwar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.15.3\jackson-dataformat-xml-2.15.3.jar, C:\Users\edwar\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar, C:\Users\edwar\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar, C:\Users\edwar\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar, C:\Users\edwar\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot\3.2.2\spring-boot-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.2\spring-boot-autoconfigure-3.2.2.jar, C:\Users\edwar\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar, C:\Users\edwar\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar, C:\Users\edwar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar, C:\Users\edwar\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar, C:\Users\edwar\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar, C:\Users\edwar\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar, C:\Users\edwar\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-core\6.1.3\spring-core-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-jcl\6.1.3\spring-jcl-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.2\spring-boot-starter-data-jpa-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.2\spring-boot-starter-aop-3.2.2.jar, C:\Users\edwar\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar, C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.2\spring-boot-starter-jdbc-3.2.2.jar, C:\Users\edwar\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-jdbc\6.1.3\spring-jdbc-6.1.3.jar, C:\Users\edwar\.m2\repository\org\hibernate\orm\hibernate-core\6.4.1.Final\hibernate-core-6.4.1.Final.jar, C:\Users\edwar\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar, C:\Users\edwar\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar, C:\Users\edwar\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar, C:\Users\edwar\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar, C:\Users\edwar\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar, C:\Users\edwar\.m2\repository\org\springframework\data\spring-data-jpa\3.2.2\spring-data-jpa-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\data\spring-data-commons\3.2.2\spring-data-commons-3.2.2.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-orm\6.1.3\spring-orm-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-tx\6.1.3\spring-tx-6.1.3.jar, C:\Users\edwar\.m2\repository\org\springframework\spring-aspects\6.1.3\spring-aspects-6.1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java]
+[DEBUG]   (f) compilerArgs = [--enable-preview]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com:ferremax:0.0.1-SNAPSHOT @ C:\Users\edwar\Downloads\ferremax-main\ferremax-main\pom.xml
+[DEBUG]   (f) projectArtifact = com:ferremax:jar:0.0.1-SNAPSHOT
+[DEBUG]   (s) release = 21
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@673c4f6e
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 21
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 21
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations to compile source roots:
+  C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java
+[DEBUG] New compile source roots:
+  C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java
+  C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\ClienteDTO.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\ProductoRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\ProductoController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Categoria.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\EmpleadoDTO.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\AdminServiceApp.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Cliente.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\CarritoService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\ClienteService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\DetalleVenta.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\ProductoDTO.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\EmpleadoRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Admin.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\AdminRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\EurekaServerApp.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\ClienteServiceApp.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\CategoriaService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\AdminService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\EmpleadoService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Empleado.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\ItemCarrito.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\ClienteController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\EmpleadoController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\VentaService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Venta.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\VentaController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\CarritoRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\resources\APIGateWay.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\EmpleadoServiceApp.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\AdminController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\DetalleVentaDTO.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\resources\CORSConfig.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Carrito.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\CategoriaRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\CategoriaController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\CarritoController.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\ProductoApp.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\VentaRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\ProductoService.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\VentaServiceApp.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Producto.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\CategoriaDTO.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\AdminDTO.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\ClienteRepository.java
+[INFO] 	Stale source detected: C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\VentaDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\AdminServiceApp.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\ClienteServiceApp.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\EmpleadoServiceApp.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\EurekaServerApp.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\ProductoApp.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\applications\VentaServiceApp.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\AdminController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\CarritoController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\CategoriaController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\ClienteController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\EmpleadoController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\ProductoController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\controllers\VentaController.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Admin.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Carrito.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Categoria.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Cliente.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\DetalleVenta.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Empleado.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\ItemCarrito.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Producto.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\models\Venta.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\AdminDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\CategoriaDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\ClienteDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\DetalleVentaDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\EmpleadoDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\ProductoDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\modelsdto\VentaDTO.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\AdminRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\CarritoRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\CategoriaRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\ClienteRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\EmpleadoRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\ProductoRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\repositories\VentaRepository.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\resources\APIGateWay.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\resources\CORSConfig.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\AdminService.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\CarritoService.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\CategoriaService.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\ClienteService.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\EmpleadoService.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\ProductoService.java
+[INFO] 	Input tree files (+): C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java\backend\services\VentaService.java
+[INFO] Recompiling the module because of changed source code.
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-gateway\4.1.0\spring-cloud-starter-gateway-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter\4.1.0\spring-cloud-starter-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-context\4.1.0\spring-cloud-context-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-commons\4.1.0\spring-cloud-commons-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-rsa\1.1.1\spring-security-rsa-1.1.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.74\bcprov-jdk18on-1.74.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-gateway-server\4.1.0\spring-cloud-gateway-server-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.2\spring-boot-starter-validation-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.18\tomcat-embed-el-10.1.18.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\projectreactor\addons\reactor-extra\3.5.1\reactor-extra-3.5.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\4.1.0\spring-cloud-starter-netflix-eureka-client-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\4.1.0\spring-cloud-netflix-eureka-client-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.3\httpclient5-5.2.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2.4\httpcore5-5.2.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2.4\httpcore5-h2-5.2.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-client\2.0.1\eureka-client-2.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-core\2.0.1\eureka-core-2.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.2.1\woodstox-core-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-loadbalancer\4.1.0\spring-cloud-starter-loadbalancer-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-loadbalancer\4.1.0\spring-cloud-loadbalancer-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.2.2\spring-boot-starter-cache-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-context-support\6.1.3\spring-context-support-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\stoyanr\evictor\1.0.0\evictor-1.0.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.2.2\spring-boot-starter-actuator-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.2\spring-boot-starter-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.2\spring-boot-starter-logging-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\slf4j\jul-to-slf4j\2.0.11\jul-to-slf4j-2.0.11.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.2.2\spring-boot-actuator-autoconfigure-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-actuator\3.2.2\spring-boot-actuator-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\micrometer\micrometer-observation\1.12.2\micrometer-observation-1.12.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\micrometer\micrometer-commons\1.12.2\micrometer-commons-1.12.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\micrometer\micrometer-jakarta9\1.12.2\micrometer-jakarta9-1.12.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\micrometer\micrometer-core\1.12.2\micrometer-core-1.12.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-webflux\3.2.2\spring-boot-starter-webflux-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.2\spring-boot-starter-json-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-reactor-netty\3.2.2\spring-boot-starter-reactor-netty-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.1.15\reactor-netty-http-1.1.15.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-codec-http\4.1.105.Final\netty-codec-http-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-common\4.1.105.Final\netty-common-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-buffer\4.1.105.Final\netty-buffer-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-transport\4.1.105.Final\netty-transport-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-codec\4.1.105.Final\netty-codec-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-handler\4.1.105.Final\netty-handler-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-codec-http2\4.1.105.Final\netty-codec-http2-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns\4.1.105.Final\netty-resolver-dns-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-resolver\4.1.105.Final\netty-resolver-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-codec-dns\4.1.105.Final\netty-codec-dns-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.105.Final\netty-resolver-dns-native-macos-4.1.105.Final-osx-x86_64.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.105.Final\netty-resolver-dns-classes-macos-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.105.Final\netty-transport-native-epoll-4.1.105.Final-linux-x86_64.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.105.Final\netty-transport-native-unix-common-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.105.Final\netty-transport-classes-epoll-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.1.15\reactor-netty-core-1.1.15.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-handler-proxy\4.1.105.Final\netty-handler-proxy-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\netty\netty-codec-socks\4.1.105.Final\netty-codec-socks-4.1.105.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-web\6.1.3\spring-web-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-beans\6.1.3\spring-beans-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-webflux\6.1.3\spring-webflux-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\io\projectreactor\reactor-core\3.6.2\reactor-core-3.6.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-client\3.2.2\spring-boot-starter-oauth2-client-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-config\6.2.1\spring-security-config-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-context\6.1.3\spring-context-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-core\6.2.1\spring-security-core-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-crypto\6.2.1\spring-security-crypto-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-expression\6.1.3\spring-expression-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-client\6.2.1\spring-security-oauth2-client-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-core\6.2.1\spring-security-oauth2-core-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\nimbusds\oauth2-oidc-sdk\9.43.3\oauth2-oidc-sdk-9.43.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\nimbusds\content-type\2.2\content-type-2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\nimbusds\lang-tag\1.7\lang-tag-1.7.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-jose\6.2.1\spring-security-oauth2-jose-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.24.4\nimbus-jose-jwt-9.24.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.2\spring-boot-starter-security-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-aop\6.1.3\spring-aop-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-web\6.2.1\spring-security-web-6.2.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\4.1.0\spring-cloud-starter-config-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-config-client\4.1.0\spring-cloud-config-client-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-server\4.1.0\spring-cloud-starter-netflix-eureka-server-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-server\4.1.0\spring-cloud-netflix-eureka-server-4.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.2\spring-boot-starter-web-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.2\spring-boot-starter-tomcat-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.18\tomcat-embed-core-10.1.18.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.18\tomcat-embed-websocket-10.1.18.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-webmvc\6.1.3\spring-webmvc-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-freemarker\3.2.2\spring-boot-starter-freemarker-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-client-jersey3\2.0.1\eureka-client-jersey3-2.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\connectors\jersey-apache-connector\3.1.5\jersey-apache-connector-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-core-jersey3\2.0.1\eureka-core-jersey3-2.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\3.1.5\jersey-container-servlet-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\3.1.5\jersey-container-servlet-core-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-common\3.1.5\jersey-common-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-server\3.1.5\jersey-server-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-client\3.1.5\jersey-client-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\3.1.5\jersey-hk2-3.1.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-locator\3.0.5\hk2-locator-3.0.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\3.0.5\aopalliance-repackaged-3.0.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-utils\3.0.5\hk2-utils-3.0.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\javassist\javassist\3.29.2-GA\javassist-3.29.2-GA.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\hk2\spring-bridge\3.0.5\spring-bridge-3.0.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-api\3.0.5\hk2-api-3.0.5.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.15.3\jackson-dataformat-xml-2.15.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot\3.2.2\spring-boot-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.2\spring-boot-autoconfigure-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-core\6.1.3\spring-core-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-jcl\6.1.3\spring-jcl-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.2\spring-boot-starter-data-jpa-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.2\spring-boot-starter-aop-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.2\spring-boot-starter-jdbc-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-jdbc\6.1.3\spring-jdbc-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\hibernate\orm\hibernate-core\6.4.1.Final\hibernate-core-6.4.1.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\data\spring-data-jpa\3.2.2\spring-data-jpa-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\data\spring-data-commons\3.2.2\spring-data-commons-3.2.2.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-orm\6.1.3\spring-orm-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-tx\6.1.3\spring-tx-6.1.3.jar
+[DEBUG]  C:\Users\edwar\.m2\repository\org\springframework\spring-aspects\6.1.3\spring-aspects-6.1.3.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java
+[DEBUG]  C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes -classpath C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\classes;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-gateway\4.1.0\spring-cloud-starter-gateway-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter\4.1.0\spring-cloud-starter-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-context\4.1.0\spring-cloud-context-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-commons\4.1.0\spring-cloud-commons-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-rsa\1.1.1\spring-security-rsa-1.1.1.jar;C:\Users\edwar\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.74\bcprov-jdk18on-1.74.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-gateway-server\4.1.0\spring-cloud-gateway-server-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.2\spring-boot-starter-validation-3.2.2.jar;C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.18\tomcat-embed-el-10.1.18.jar;C:\Users\edwar\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\edwar\.m2\repository\io\projectreactor\addons\reactor-extra\3.5.1\reactor-extra-3.5.1.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\4.1.0\spring-cloud-starter-netflix-eureka-client-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\4.1.0\spring-cloud-netflix-eureka-client-4.1.0.jar;C:\Users\edwar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.3\httpclient5-5.2.3.jar;C:\Users\edwar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2.4\httpcore5-5.2.4.jar;C:\Users\edwar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2.4\httpcore5-h2-5.2.4.jar;C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-client\2.0.1\eureka-client-2.0.1.jar;C:\Users\edwar\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;C:\Users\edwar\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\edwar\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\edwar\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\edwar\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar;C:\Users\edwar\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\edwar\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\edwar\.m2\repository\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar;C:\Users\edwar\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\edwar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\edwar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\edwar\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\edwar\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\edwar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-core\2.0.1\eureka-core-2.0.1.jar;C:\Users\edwar\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.2.1\woodstox-core-6.2.1.jar;C:\Users\edwar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-loadbalancer\4.1.0\spring-cloud-starter-loadbalancer-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-loadbalancer\4.1.0\spring-cloud-loadbalancer-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.2.2\spring-boot-starter-cache-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-context-support\6.1.3\spring-context-support-6.1.3.jar;C:\Users\edwar\.m2\repository\com\stoyanr\evictor\1.0.0\evictor-1.0.0.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.2.2\spring-boot-starter-actuator-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.2\spring-boot-starter-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.2\spring-boot-starter-logging-3.2.2.jar;C:\Users\edwar\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\edwar\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\edwar\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\edwar\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\edwar\.m2\repository\org\slf4j\jul-to-slf4j\2.0.11\jul-to-slf4j-2.0.11.jar;C:\Users\edwar\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.2.2\spring-boot-actuator-autoconfigure-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-actuator\3.2.2\spring-boot-actuator-3.2.2.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\edwar\.m2\repository\io\micrometer\micrometer-observation\1.12.2\micrometer-observation-1.12.2.jar;C:\Users\edwar\.m2\repository\io\micrometer\micrometer-commons\1.12.2\micrometer-commons-1.12.2.jar;C:\Users\edwar\.m2\repository\io\micrometer\micrometer-jakarta9\1.12.2\micrometer-jakarta9-1.12.2.jar;C:\Users\edwar\.m2\repository\io\micrometer\micrometer-core\1.12.2\micrometer-core-1.12.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-webflux\3.2.2\spring-boot-starter-webflux-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.2\spring-boot-starter-json-3.2.2.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-reactor-netty\3.2.2\spring-boot-starter-reactor-netty-3.2.2.jar;C:\Users\edwar\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.1.15\reactor-netty-http-1.1.15.jar;C:\Users\edwar\.m2\repository\io\netty\netty-codec-http\4.1.105.Final\netty-codec-http-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-common\4.1.105.Final\netty-common-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-buffer\4.1.105.Final\netty-buffer-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-transport\4.1.105.Final\netty-transport-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-codec\4.1.105.Final\netty-codec-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-handler\4.1.105.Final\netty-handler-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-codec-http2\4.1.105.Final\netty-codec-http2-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns\4.1.105.Final\netty-resolver-dns-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-resolver\4.1.105.Final\netty-resolver-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-codec-dns\4.1.105.Final\netty-codec-dns-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.105.Final\netty-resolver-dns-native-macos-4.1.105.Final-osx-x86_64.jar;C:\Users\edwar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.105.Final\netty-resolver-dns-classes-macos-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.105.Final\netty-transport-native-epoll-4.1.105.Final-linux-x86_64.jar;C:\Users\edwar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.105.Final\netty-transport-native-unix-common-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.105.Final\netty-transport-classes-epoll-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.1.15\reactor-netty-core-1.1.15.jar;C:\Users\edwar\.m2\repository\io\netty\netty-handler-proxy\4.1.105.Final\netty-handler-proxy-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\io\netty\netty-codec-socks\4.1.105.Final\netty-codec-socks-4.1.105.Final.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-web\6.1.3\spring-web-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-beans\6.1.3\spring-beans-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-webflux\6.1.3\spring-webflux-6.1.3.jar;C:\Users\edwar\.m2\repository\io\projectreactor\reactor-core\3.6.2\reactor-core-3.6.2.jar;C:\Users\edwar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-client\3.2.2\spring-boot-starter-oauth2-client-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-config\6.2.1\spring-security-config-6.2.1.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-context\6.1.3\spring-context-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-core\6.2.1\spring-security-core-6.2.1.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-crypto\6.2.1\spring-security-crypto-6.2.1.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-expression\6.1.3\spring-expression-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-client\6.2.1\spring-security-oauth2-client-6.2.1.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-core\6.2.1\spring-security-oauth2-core-6.2.1.jar;C:\Users\edwar\.m2\repository\com\nimbusds\oauth2-oidc-sdk\9.43.3\oauth2-oidc-sdk-9.43.3.jar;C:\Users\edwar\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\edwar\.m2\repository\com\nimbusds\content-type\2.2\content-type-2.2.jar;C:\Users\edwar\.m2\repository\com\nimbusds\lang-tag\1.7\lang-tag-1.7.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-oauth2-jose\6.2.1\spring-security-oauth2-jose-6.2.1.jar;C:\Users\edwar\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.24.4\nimbus-jose-jwt-9.24.4.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.2\spring-boot-starter-security-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-aop\6.1.3\spring-aop-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\security\spring-security-web\6.2.1\spring-security-web-6.2.1.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\4.1.0\spring-cloud-starter-config-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-config-client\4.1.0\spring-cloud-config-client-4.1.0.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-server\4.1.0\spring-cloud-starter-netflix-eureka-server-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-server\4.1.0\spring-cloud-netflix-eureka-server-4.1.0.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.2\spring-boot-starter-web-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.2\spring-boot-starter-tomcat-3.2.2.jar;C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.18\tomcat-embed-core-10.1.18.jar;C:\Users\edwar\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.18\tomcat-embed-websocket-10.1.18.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-webmvc\6.1.3\spring-webmvc-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-freemarker\3.2.2\spring-boot-starter-freemarker-3.2.2.jar;C:\Users\edwar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-client-jersey3\2.0.1\eureka-client-jersey3-2.0.1.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\connectors\jersey-apache-connector\3.1.5\jersey-apache-connector-3.1.5.jar;C:\Users\edwar\.m2\repository\com\netflix\eureka\eureka-core-jersey3\2.0.1\eureka-core-jersey3-2.0.1.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\3.1.5\jersey-container-servlet-3.1.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\3.1.5\jersey-container-servlet-core-3.1.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-common\3.1.5\jersey-common-3.1.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-server\3.1.5\jersey-server-3.1.5.jar;C:\Users\edwar\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\core\jersey-client\3.1.5\jersey-client-3.1.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\3.1.5\jersey-hk2-3.1.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-locator\3.0.5\hk2-locator-3.0.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\3.0.5\aopalliance-repackaged-3.0.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-utils\3.0.5\hk2-utils-3.0.5.jar;C:\Users\edwar\.m2\repository\org\javassist\javassist\3.29.2-GA\javassist-3.29.2-GA.jar;C:\Users\edwar\.m2\repository\org\glassfish\hk2\spring-bridge\3.0.5\spring-bridge-3.0.5.jar;C:\Users\edwar\.m2\repository\org\glassfish\hk2\hk2-api\3.0.5\hk2-api-3.0.5.jar;C:\Users\edwar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.15.3\jackson-dataformat-xml-2.15.3.jar;C:\Users\edwar\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar;C:\Users\edwar\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar;C:\Users\edwar\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar;C:\Users\edwar\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot\3.2.2\spring-boot-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.2\spring-boot-autoconfigure-3.2.2.jar;C:\Users\edwar\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\edwar\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\edwar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\edwar\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\edwar\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\edwar\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\edwar\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-core\6.1.3\spring-core-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-jcl\6.1.3\spring-jcl-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.2\spring-boot-starter-data-jpa-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.2\spring-boot-starter-aop-3.2.2.jar;C:\Users\edwar\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\edwar\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.2\spring-boot-starter-jdbc-3.2.2.jar;C:\Users\edwar\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-jdbc\6.1.3\spring-jdbc-6.1.3.jar;C:\Users\edwar\.m2\repository\org\hibernate\orm\hibernate-core\6.4.1.Final\hibernate-core-6.4.1.Final.jar;C:\Users\edwar\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\edwar\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\edwar\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\edwar\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\edwar\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\edwar\.m2\repository\org\springframework\data\spring-data-jpa\3.2.2\spring-data-jpa-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\data\spring-data-commons\3.2.2\spring-data-commons-3.2.2.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-orm\6.1.3\spring-orm-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-tx\6.1.3\spring-tx-6.1.3.jar;C:\Users\edwar\.m2\repository\org\springframework\spring-aspects\6.1.3\spring-aspects-6.1.3.jar; -sourcepath C:\Users\edwar\Downloads\ferremax-main\ferremax-main\src\main\java;C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations; -s C:\Users\edwar\Downloads\ferremax-main\ferremax-main\target\generated-sources\annotations -g -parameters --release 21 -encoding UTF-8 --enable-preview -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 45 source files with javac [debug parameters release 21] to target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/edwar/Downloads/ferremax-main/ferremax-main/src/main/java/backend/applications/ClienteServiceApp.java:[7,2] cannot find symbol
+  symbol: class SpringBootApplication
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.382 s
+[INFO] Finished at: 2025-05-19T15:10:16-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project ferremax: Compilation failure
+[ERROR] /C:/Users/edwar/Downloads/ferremax-main/ferremax-main/src/main/java/backend/applications/ClienteServiceApp.java:[7,2] cannot find symbol
+[ERROR]   symbol: class SpringBootApplication
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project ferremax: Compilation failure
+/C:/Users/edwar/Downloads/ferremax-main/ferremax-main/src/main/java/backend/applications/ClienteServiceApp.java:[7,2] cannot find symbol
+  symbol: class SpringBootApplication
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+/C:/Users/edwar/Downloads/ferremax-main/ferremax-main/src/main/java/backend/applications/ClienteServiceApp.java:[7,2] cannot find symbol
+  symbol: class SpringBootApplication
+
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1269)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:212)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory

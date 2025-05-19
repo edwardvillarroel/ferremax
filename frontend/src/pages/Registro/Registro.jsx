@@ -1,5 +1,6 @@
 import {Container, Form, Button, Alert} from 'react-bootstrap';
 import './Registro.css';
+
 import { useState } from 'react';
 import Swal from 'sweetalert2';
 
