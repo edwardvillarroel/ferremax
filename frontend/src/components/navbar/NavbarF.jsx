@@ -1,19 +1,27 @@
 import { Container, Nav, Navbar, NavDropdown, Image, Button, Overlay, Popover } from 'react-bootstrap';
 import './Nav.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AiOutlineShoppingCart, AiOutlineUser } from 'react-icons/ai';
-import { useState, useRef } from 'react';
-import { RiDeleteBin6Line } from "react-icons/ri";
+import { useState, useRef, useContext} from 'react';
+import { AuthContext } from '../../pages/InicioSesion/authContext';
+
 
 function NavbarF() {
+  const { isLoggedIn, rol, logout } = useContext(AuthContext);
+  const navigate = useNavigate();
+
   const [showPopover, setShowPopover] = useState(false);
   const popoverTarget = useRef(null);
+
+  const cerrarSesion = () => {
+    logout();
+    navigate('/Home');
+  }
 
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="bg-dark custom-navbar" variant="dark">
         <Container fluid className="d-flex justify-content-between align-items-center">
-        
           <div className="d-lg-none">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className="custom-toggle" />
           </div>
@@ -27,16 +35,20 @@ function NavbarF() {
           </Navbar.Brand>
 
           <div className="d-flex align-items-center order-lg-2">
-            <div className="d-none d-lg-block">
+            <div className="d-none d-lg-flex align-items-center me-3">
+              {isLoggedIn && rol === 'admin' && (<span className="text-white me-2"><AiOutlineUser className="user-icon me-1"/> Administrador</span>)}
+
               <Nav className="align-items-center">
-                <Nav.Link as={Link} to="/inicio" className="d-inline-flex align-items-center">
-                  <AiOutlineUser className="user-icon me-1" />
-                  Inicia sesión
-                </Nav.Link>
-                <Nav.Link as={Link} to="/registro">Regístrate</Nav.Link>
-              </Nav>
+                {!isLoggedIn ?(
+                 <>
+                  <Nav.Link as={Link} to="/inicio" className="d-inline-flex align-items-center">
+                  <AiOutlineUser className="user-icon me-1" />Inicia sesión</Nav.Link>
+                  <Nav.Link as={Link} to="/registro">Regístrate</Nav.Link></>) : 
+                  (<Button className='btn-salir' onClick={cerrarSesion}>Cerrar Sesión</Button>)}
+              </Nav> 
             </div>
 
+            {rol !== 'admin' &&(
             <div className="cart-icon-container ms-3">
               <Button
                 variant="link"
@@ -51,69 +63,40 @@ function NavbarF() {
                 {(props) => (
                   <Popover {...props}>
                     <Popover.Header as="h3">Carrito de compras</Popover.Header>
-                    <Popover.Body>
-                      <div className="div-carrito">
+                    <Popover.Body>No hay articulos
                       
-                        <div className="cart-header">
-                          <div>Artículo</div>
-                          <div>Precio</div>
-                          <div>Cantidad</div>
-                          <div>Subtotal</div>
-                          <div></div>
-                        </div>
-                      
-                        <div className="cart-item">
-                          <div className="cart-item-info">
-                            <img src="/imagenes/ejemplo.png" alt="Producto" className="cart-item-img" />
-                          </div>
-                      
-                          <div className="cart-item-price">$10.000</div>
-                      
-                          <div className="cart-item-qty">
-                            <Button variant="light" size="sm" className="cart-qty-btn">-</Button>
-                            <span className="mx-2">2</span>
-                            <Button variant="light" size="sm" className="cart-qty-btn">+</Button>
-                          </div>
-                      
-                          <div className="cart-item-subtotal">$20.000</div>
-                      
-                          <div className="cart-item-delete">
-                            <RiDeleteBin6Line className="basurero" />
-                          </div>
-                        </div>
-                      </div>
                     </Popover.Body>
                   </Popover>
                 )}
               </Overlay>
             </div>
+            )}
           </div>
 
           <Navbar.Collapse id="responsive-navbar-nav">
-  <Nav className="mx-auto text-center d-flex flex-wrap justify-content-center align-items-center nav-links-container">
-    <NavDropdown title="Herramientas" id="collapsible-nav-dropdown">
-      <NavDropdown.Item href="#">Herramientas Manuales</NavDropdown.Item>
-      <NavDropdown.Item href="#">Materiales Básicos</NavDropdown.Item>
-      <NavDropdown.Item href="#">Equipos de Seguridad</NavDropdown.Item>
-    </NavDropdown>
-    <Nav.Link as={Link} to="/tornillos">Tornillos</Nav.Link>
-    <Nav.Link as={Link} to="/fijaciones">Fijaciones</Nav.Link>
-    <Nav.Link as={Link} to="/equipos-de-medicion">Equipos de Medición</Nav.Link>
+            <Nav className="mx-auto text-center d-flex flex-wrap justify-content-center align-items-center nav-links-container">
+              <NavDropdown title="Herramientas" id="collapsible-nav-dropdown">
+                <NavDropdown.Item as={Link} to="/Herramientas-Manuales" id="tools1">Herramientas Manuales</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Materiales-Basicos" id="tools2">Materiales Básicos</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Equipo-de-seguridad" id="tools3">Equipos de Seguridad</NavDropdown.Item>
+              </NavDropdown>
+                <Nav.Link as={Link} to="/tornillos" id="tools4">Tornillos</Nav.Link>
+                <Nav.Link as={Link} to="/fijaciones" id="tools5">Fijaciones</Nav.Link>
+                <Nav.Link as={Link} to="/equipos-de-medicion" id="tools6">Equipos de Medición</Nav.Link>
 
-    {localStorage.getItem('rol') === 'admin' && (
-      <Nav.Link as={Link} to="/admin">Admin</Nav.Link>
-    )}
+              {rol === 'admin' && (
+                <NavDropdown title="Administración" id="admin-nav-dropdown">
+                  <NavDropdown.Item as={Link} to="/admin/usuarios">Gestionar Usuarios</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/admin/productos">Gestionar Productos</NavDropdown.Item>
+                </NavDropdown>)}
 
-    <div className="auth-links-inline d-lg-none d-flex align-items-center ms-3">
-      <Nav.Link as={Link} to="/inicio" className="d-inline-flex align-items-center">
-        <AiOutlineUser className="user-icon me-1" />
-        Inicia sesión
-      </Nav.Link>
-      <Nav.Link as={Link} to="/registro">Regístrate</Nav.Link>
-    </div>
-  </Nav>
-</Navbar.Collapse>
-
+              <div className="auth-links-inline d-lg-none d-flex align-items-center ms-3">
+                <Nav.Link as={Link} to="/inicio" className="d-inline-flex align-items-center">
+                <AiOutlineUser className="user-icon me-1" />Inicia sesión</Nav.Link>
+                <Nav.Link as={Link} to="/registro">Regístrate</Nav.Link>
+              </div>
+           </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>

@@ -1,8 +1,9 @@
 
 import {Button, Container, Form} from 'react-bootstrap';
 import './InicioPage.css'
-import { useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../InicioSesion/authContext';
 import Swal from 'sweetalert2';
 
 const InicioPage = () => {
@@ -12,8 +13,9 @@ const InicioPage = () => {
     const [password , setPassword] = useState('');
     const navigate = useNavigate();
 
+    const { login } = useContext(AuthContext);
+
     const paswordShow = () => setPasword(!showPassword);
-    ;
 
     const handleglogin=(e)=>{
       e.preventDefault();
@@ -28,16 +30,17 @@ const InicioPage = () => {
       return;
       }
 
-      if(!userSaved.email === email && userSaved.password === password){
+      if(userSaved.email === email && userSaved.password === password){
         const token = Math.random().toString(36).substring(2);
-        localStorage.setItem('token', token);
-
         const esAdmin = email === 'admin@admin.com';
-        localStorage.setItem('rol', esAdmin ? 'admin' : 'cliente');
+
+        login(token, esAdmin ? 'admin' : 'cliente');
 
         Swal.fire({
         icon: 'success',
         title: `¡Bienvenido ${esAdmin ? 'administrador' : userSaved.nombre}!`,
+        confirmButtonColor: '#00bcd4',
+
       }).then(() => {
         navigate(esAdmin ? '/admin' : '/');
       });
@@ -46,9 +49,22 @@ const InicioPage = () => {
         icon: 'error',
         title: 'Credenciales incorrectas',
         text: 'Correo o contraseña inválidos',
+        confirmButtonColor: '#00bcd4',
       });
      }
     }
+
+    useEffect(()=>{
+      const userAdmin = {
+        nombre: 'administrador',
+        email: 'admin@admin.com',
+        password: 'admin123'
+      };
+
+      if (!localStorage.getItem('usuario')){
+        localStorage.setItem('usuario', JSON.stringify(userAdmin));
+      }
+    }, []);
 
     return(
     <Container className="div-contenedor">
@@ -79,6 +95,7 @@ const InicioPage = () => {
             onChange={paswordShow} />
             </Form.Group>
             <Button className='buttonInicio' type="submit">Iniciar Sesión</Button>
+            <p className='passwordRes'>¿Olvidaste tu contraseña?</p>
           </Form>
         </div>
     

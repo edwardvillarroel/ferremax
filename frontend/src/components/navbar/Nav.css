@@ -136,6 +136,16 @@
   margin-right: 5px;
 }
 
+.btn-salir{
+  background-color: #00bcd4 !important;
+  border-color: #00bcd4 !important;
+  margin-left: 10px;
+}
+
+.btn-salir:hover{
+  background-color: #007e8f !important;
+  border-color: #007e8f  !important;
+}
 
 .accordion-button {
   background-color: #1a1a1a;
