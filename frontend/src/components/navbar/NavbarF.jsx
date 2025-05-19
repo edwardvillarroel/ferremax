@@ -4,18 +4,37 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AiOutlineShoppingCart, AiOutlineUser } from 'react-icons/ai';
 import { useState, useRef, useContext} from 'react';
 import { AuthContext } from '../../pages/InicioSesion/authContext';
+import Swal from 'sweetalert2';
 
 
 function NavbarF() {
-  const { isLoggedIn, rol, logout } = useContext(AuthContext);
+  const { isLoggedIn, rol, logout, user } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const [showPopover, setShowPopover] = useState(false);
   const popoverTarget = useRef(null);
 
   const cerrarSesion = () => {
-    logout();
-    navigate('/Home');
+    Swal.fire({
+      title: '¿Estás seguro?',
+      text: 'Vas a cerrar sesión',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#00bcd4',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: 'Sí, cerrar sesión',
+      cancelButtonText: 'Cancelar'
+    }).then((result) =>{
+      if(result.isConfirmed){
+        logout();
+        navigate('/Home');
+        Swal.fire({
+        title: 'Sesión cerrada',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 1500});
+      }
+    });
   }
 
   return (
@@ -36,7 +55,9 @@ function NavbarF() {
 
           <div className="d-flex align-items-center order-lg-2">
             <div className="d-none d-lg-flex align-items-center me-3">
-              {isLoggedIn && rol === 'admin' && (<span className="text-white me-2"><AiOutlineUser className="user-icon me-1"/> Administrador</span>)}
+              {isLoggedIn && (<span className="text-white me-3 d-flex align-items-center">
+                <AiOutlineUser className="user-icon me-1"/>
+                {rol === 'admin' ? 'Administrador' : user?.name || 'Usuario'}</span>)}
 
               <Nav className="align-items-center">
                 {!isLoggedIn ?(
@@ -87,7 +108,7 @@ function NavbarF() {
               {rol === 'admin' && (
                 <NavDropdown title="Administración" id="admin-nav-dropdown">
                   <NavDropdown.Item as={Link} to="/admin/usuarios">Gestión de usuarios</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/admin/productos">Control de inventarios</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/admin/productos">Control de inventariosc</NavDropdown.Item>
                 </NavDropdown>)}
 
               <div className="auth-links-inline d-lg-none d-flex align-items-center ms-3">

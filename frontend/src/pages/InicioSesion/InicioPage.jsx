@@ -5,9 +5,10 @@ import { useEffect, useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../InicioSesion/authContext';
 import Swal from 'sweetalert2';
+import { GoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from 'jwt-decode';
 
 const InicioPage = () => {
-    
     const [showPassword, setPasword] = useState(false);
     const [email , setEmail] = useState('');
     const [password , setPassword] = useState('');
@@ -54,6 +55,33 @@ const InicioPage = () => {
      }
     }
 
+    const handleGoogleLogin = (credentialResponse) => {
+      const decored = jwtDecode(credentialResponse.credential);
+      const nombre = decored.name;
+      const email = decored.email;
+
+      const token = credentialResponse.credential;
+      const esAdmin = email === 'admin@admin.com';
+
+      login(token, esAdmin ? 'admin': 'cliente');
+
+      Swal.fire({
+      icon: 'success',
+      title: `¡Bienvenido ${esAdmin ? 'administrador' : nombre}!`,
+      confirmButtonColor: '#00bcd4',
+      }).then(() => {
+        navigate(esAdmin ? '/admin' : '/');
+      });
+     };
+
+    const handleGoogleLoginError = () => {
+      Swal.fire({
+      icon: 'error',
+      title: 'Error al iniciar sesión con Google',
+      confirmButtonColor: '#00bcd4',
+      });
+    };
+
     useEffect(()=>{
       const userAdmin = {
         nombre: 'administrador',
@@ -65,6 +93,7 @@ const InicioPage = () => {
         localStorage.setItem('usuario', JSON.stringify(userAdmin));
       }
     }, []);
+
 
     return(
     <Container className="div-contenedor">
@@ -97,6 +126,12 @@ const InicioPage = () => {
             <Button className='buttonInicio' type="submit">Iniciar Sesión</Button>
             <p className='passwordRes'>¿Olvidaste tu contraseña?</p>
           </Form>
+
+          <div className="mt-3 text-center">
+            <GoogleLogin
+              onSuccess={handleGoogleLogin}
+              onError={handleGoogleLoginError}/>
+          </div>
         </div>
     
         <div className="formulario-custom2">
