@@ -86,8 +86,8 @@ function NavbarF() {
 
               {rol === 'admin' && (
                 <NavDropdown title="Administración" id="admin-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/admin/usuarios">Gestionar Usuarios</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/admin/productos">Gestionar Productos</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/admin/usuarios">Gestión de usuarios</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/admin/productos">Control de inventarios</NavDropdown.Item>
                 </NavDropdown>)}
 
               <div className="auth-links-inline d-lg-none d-flex align-items-center ms-3">
